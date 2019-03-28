@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- saved from url=(0056)https://chad-bennett.github.io/eresa/demo/transform.html -->
+<html lang="en" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>transforms page</title>
+  <style>
+    body {background: linear-gradient(to right, #ede574, #e1f5c4);}
+
+    div {
+      width: 100px;
+      height: 100px;
+      background-color: white;
+      margin: 3rem;
+    }
+
+    #box1 {transition: transform 1s}
+
+    #box1:hover {transform: skewX(-20px); background-color: red;transform: skewX(25deg);
+  transform: skewY(10deg);
+  transform: skew(25deg, 10deg);}
+
+    #box2 {transition: transform 1s;}
+
+    #box2:hover {transform: translate(20px, 20px); background-color: orange}
+
+    #box3 {transform: transition 1s}
+
+    #box3:hover {transform: rotate(170deg); background-color: lightgreen;}
+
+    #box4 {transition: transform 1s}
+
+    #box4:hover {transform: rotate(90deg) scale(1.75) translateX(50px); background-color: yellowgreen}
+
+    #box5 {transition: transform 3s}
+
+    #box5:hover {transform: skewX(30px); background-color: blue; transform: skewX(40deg); transform: skewY(-40deg);
+  transform: skew(30deg, 80deg);}
+
+    #box6 {transition: transform 2s}
+
+    #box6:hover {transform: rotate(1000deg); background-color: lightblue}
+
+    #box7 {transition: 3s}
+
+    #box7:hover {box-shadow: 0px 10px 0px; background-color: indigo}
+
+    #box8 {transform-origin: left top;
+  transition: transform 1s;}
+
+    #box8:hover {transform: rotate(720deg); background-color: #9bc13f }
+  </style>
+</head>
+
+<body>
+  <div id="box1"> </div>
+  <div id="box2"> </div>
+  <div id="box3"> </div>
+  <div id="box4"> </div>
+  <div id="box5"> </div>
+  <div id="box6"> </div>
+  <div id="box7"> </div>
+  <div id="box8"> </div>
+
+
+</body></html>
