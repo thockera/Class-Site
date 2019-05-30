@@ -1,0 +1,4 @@
+body {background: url("stardust_@2X.png"); background-attachment: fixed;}
+h1 {color: lightgreen;}
+p {color: lightgreen;}
+.active {background-color: lightgreen; color: black;}
